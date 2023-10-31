@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &946753693616050025
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 946753693616050027}
+  - component: {fileID: 946753693616050024}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &946753693616050027
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 946753693616050025}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.60766673, y: 6.5121784, z: -12.323254}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &946753693616050024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 946753693616050025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 570b38c7028bef74bb212f4045a8ef3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ironCage: {fileID: 442443539792316874, guid: 79e723354caabd545abd5c0c8aee878d, type: 3}
+  gameOverUI: {fileID: 0}
+  dieText: {fileID: 0}
+  barrel:
+  - {fileID: 7857988306134209959, guid: 09ed8f1c3df0a61438546af61a9a0f50, type: 3}
+  - {fileID: 3371607621743138393, guid: 463071b61cb3c90499a53bae081e37a5, type: 3}
+  - {fileID: 442443539792316874, guid: 79e723354caabd545abd5c0c8aee878d, type: 3}
+  enemyObjs:
+  - {fileID: 4651964446270341640, guid: 96e093a1fdf3dc842906751132b1c9b4, type: 3}
+  - {fileID: 6045350739000483176, guid: 4d394c4eebd7ac64592fe66910691e73, type: 3}
+  - {fileID: 156764319567988424, guid: 789c3a492f0c06446b7a796876933c09, type: 3}
+  - {fileID: 5545006226640406538, guid: 3f6cac8ca96edb64e9aab591384aeafd, type: 3}
+  - {fileID: 9176767331359513933, guid: a2d7c65a68635ad429030eaa92b67cb2, type: 3}
+  spawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  spawnInterval0: 3
+  spawnInterval1: 0
+  spawnInterval2: 0
+  spawnInterval3: 0
+  spawnInterval4: 0
+  player: {fileID: 0}
+  isEnemy3: 0
+  speed: -0.5
+  countFollowerAppear: 0

@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4669721816626874806
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4669721816626874804}
+  - component: {fileID: 4669721816626874807}
+  m_Layer: 0
+  m_Name: Data
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4669721816626874804
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4669721816626874806}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4669721816626874807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4669721816626874806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43f9d37e7a33aeb4dbea326ee27055a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  price: 0000000096000000f401000058020000e8030000dc050000d0070000b80b0000b80b00008813000000000000fa000000f4010000ee020000e8030000b0040000d6060000b80b0000a00f00004c1d000000000000640000002c01000084030000ee020000b6030000c4090000c4090000ac0d00001c250000
+  title:
+  - 'Weapon: Double Pistols'
+  - 'Weapon: Double SMGs'
+  - 'Skill: Napalm Wave'
+  - 'Weapon: Shotgun'
+  - 'Weapon: Jackhammer'
+  - 'Weapon: Minigun'
+  - 'Skill: Airstrike'
+  - 'Weapon: Heavy Minigun'
+  - 'Weapon: Rocket Launcher'
+  - 'Weapon: Missile Launcher'
+  - 'Ally: Rifleman'
+  - 'Ally: Grenadier'
+  - 'Ally Upgrade: Automatic Rifleman'
+  - 'Ally: Marksman'
+  - 'Ally Upgrade: Flamethrower'
+  - 'Ally: Rocketeer'
+  - 'Ally Upgrade: Advanced Sniper Rifle'
+  - Weapon Training
+  - 'Ally Upgrade: Homing Missiies'
+  - 'Skill: Air Support'
+  - 'Skill: Adrenaline injection'
+  - Logistics
+  - 'Fireteam: Rifleman'
+  - 'Fireteam: Grenadier'
+  - Battle Experience
+  - 'Fireteam: Marksman'
+  - Inspiration
+  - 'Fireteam: Rocketeer'
+  - War Supplies
+  - Drilling
+  description:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Unlocks allied Marksman. Marksmen shoot right in the target
+  - Equips Grenadiers with flamethrowers. Flamethrowers spray out burning fuel
+  - Unlock allied Rocketeer. Rocketeers launch rockets straight forward
+  - Marksmen shoot two bullets
+  - All weapons reload 30% faster
+  - Rocketeers launch homing missiles
+  - Allied battle helicopter comes to support your squad
+  - Makes enemies and enemy bullets move slower
+  - +100% to the money and XP magnet radius
+  - The game starts with one Rifleman in the squad
+  - The game starts with one Grenadier in the squad
+  - Enemies drop 20% more money and XP
+  - The game starts with one Marksman in the squad
+  - Skills reload 30% faster
+  - The game starts with one Rocketeer in the squad
+  - +30% to bonuses drop
+  - All the allies get 50% fire rate boost
+  sprite:
+  - {fileID: 21300000, guid: cca6be6c14be8df4a815ec14955c5b99, type: 3}
+  - {fileID: 21300000, guid: 9a97a1a1ece123847be88ab4a7341656, type: 3}
+  - {fileID: 21300000, guid: d53fa8509d6d3c042adfbbd6bcc0b3c9, type: 3}
+  - {fileID: 21300000, guid: 91d7172c15dfc5e4ea2c5e836453ebe5, type: 3}
+  - {fileID: 21300000, guid: 22c4a1823ec158647a5b002c96c94d13, type: 3}
+  - {fileID: 21300000, guid: be824698b617f37438a9505e87e27771, type: 3}
+  - {fileID: 21300000, guid: 71ccc03809f1a6743a26407a44703d13, type: 3}
+  - {fileID: 21300000, guid: 1ab80d9d35554ba4697f506e2dd81244, type: 3}
+  - {fileID: 21300000, guid: b671805c6f52798448c4f76d330b0880, type: 3}
+  - {fileID: 21300000, guid: 8f2aa5d34c4398247aa37c294241f339, type: 3}
+  - {fileID: 21300000, guid: 11284c0454cefac48b14e4356da3161d, type: 3}
+  - {fileID: 21300000, guid: c9d432394f8b99942a00eb34f571283a, type: 3}
+  - {fileID: 21300000, guid: 68f01288f5f90f24cb9da97a5b2a8dbd, type: 3}
+  - {fileID: 21300000, guid: 1625c08e8e3e4e4428ead96d40f89c76, type: 3}
+  - {fileID: 21300000, guid: 967fd0d3954ffc343a0a67dcee15d643, type: 3}
+  - {fileID: 21300000, guid: 5e53e5b37f0dd464ca0de18b92aabe98, type: 3}
+  - {fileID: 21300000, guid: c4b13850c93ff7247a1796c050180a4c, type: 3}
+  - {fileID: 21300000, guid: 8b53bb27163bb5e4599263dfbe559463, type: 3}
+  - {fileID: 21300000, guid: e80e51613f844a142999a5e918d57ce9, type: 3}
+  - {fileID: 21300000, guid: 547f37b4209ffef4d9b61c157d193a55, type: 3}
+  - {fileID: 21300000, guid: 3cf5d77fa453999409b85e6867b14375, type: 3}
+  - {fileID: 21300000, guid: 89ac9e46d19ec3840acf4da315b29812, type: 3}
+  - {fileID: 21300000, guid: 29d1916a89c804d44a58701b744181cd, type: 3}
+  - {fileID: 21300000, guid: e60b07ae89a3ba14e9b2cdc5bf887b25, type: 3}
+  - {fileID: 21300000, guid: fec6e07b3276fc34589d556dd0d147fe, type: 3}
+  - {fileID: 21300000, guid: af55725af6c171843bc4b91a4b391ef6, type: 3}
+  - {fileID: 21300000, guid: 10e9051135ba979488458cf5a854829e, type: 3}
+  - {fileID: 21300000, guid: 3e8c49f17bb24da4391e88aad1021da1, type: 3}
+  - {fileID: 21300000, guid: d34158284f56e2d43ade676c8275434a, type: 3}
+  - {fileID: 21300000, guid: aa81ea65570202c4f89a97c242b3289d, type: 3}
+  spriteBought:
+  - {fileID: 21300000, guid: cca6be6c14be8df4a815ec14955c5b99, type: 3}
+  - {fileID: 21300000, guid: febbd50dd1e77b845b3b0f91560fbdc1, type: 3}
+  - {fileID: 21300000, guid: 13f965a2fc6959e4690a46b46a613a72, type: 3}
+  - {fileID: 21300000, guid: ac5443051e97eb448b17ea1ba3bf0133, type: 3}
+  - {fileID: 21300000, guid: 12ef2112524797e4595b48df1e6ddd49, type: 3}
+  - {fileID: 21300000, guid: f8bf8ddc34488514181c9f8d91a49a15, type: 3}
+  - {fileID: 21300000, guid: 187cc7a7dc479fd49ab2bed78d8a4016, type: 3}
+  - {fileID: 21300000, guid: 0fe34b69c497b3548a22e8ac3f4433f6, type: 3}
+  - {fileID: 21300000, guid: efbfb46dab8172a4c924e46e3d82d2f8, type: 3}
+  - {fileID: 21300000, guid: 264040542b7020d46a95175b38a3e58f, type: 3}
+  - {fileID: 21300000, guid: 11284c0454cefac48b14e4356da3161d, type: 3}
+  - {fileID: 21300000, guid: 8533285b56b79db4e8e307ccd5f845fc, type: 3}
+  - {fileID: 21300000, guid: 58ae9e81f1de0a34989008f38f170061, type: 3}
+  - {fileID: 21300000, guid: aeefb776e929c5f45a3bd7e68ed55219, type: 3}
+  - {fileID: 21300000, guid: fb9807b2535330146a129844832efe88, type: 3}
+  - {fileID: 21300000, guid: 154a0fcc7a82824499f895d3f7cdbd1b, type: 3}
+  - {fileID: 21300000, guid: 2c8243e57596848498cb4c0a7b40782d, type: 3}
+  - {fileID: 21300000, guid: 18a4a830f913d934a9bd4259b393c887, type: 3}
+  - {fileID: 21300000, guid: 746d30cc0b7205d46ba22e0bb7254aad, type: 3}
+  - {fileID: 21300000, guid: c509e699c03db9448b4cc76e1447f489, type: 3}
+  - {fileID: 21300000, guid: 3cf5d77fa453999409b85e6867b14375, type: 3}
+  - {fileID: 21300000, guid: 9b7c862233dd9084abd0787e53e0a49b, type: 3}
+  - {fileID: 21300000, guid: 4e275920c58e44648a7e23b920701500, type: 3}
+  - {fileID: 21300000, guid: 928e97ba34b385f4bae30c1cdd42462b, type: 3}
+  - {fileID: 21300000, guid: 1464fada8342f07428239eed1b00f1b9, type: 3}
+  - {fileID: 21300000, guid: 2138745f4e17afb46a42dfc4630cdb73, type: 3}
+  - {fileID: 21300000, guid: 17bf9f5d39b60b047a98561e757ebd5a, type: 3}
+  - {fileID: 21300000, guid: 73212d569020b2041b3110913e3fb9a4, type: 3}
+  - {fileID: 21300000, guid: 887d97ec4f710c742921710b7e207376, type: 3}
+  - {fileID: 21300000, guid: 441aa6becd2ce1b4fab8805a3f235b9e, type: 3}
